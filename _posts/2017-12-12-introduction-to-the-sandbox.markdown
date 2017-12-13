@@ -3,9 +3,9 @@ There are far too many development environments, languages tools, and packagers 
 Then there are so many useless tutorials flooding the internet and Youtube that it takes maximum effort just to find one to help you with what you're looking for. It's nonsense.
 
 
-![Bage]](https://img.shields.io/sandbox-active-brightgreen.svg)[sandbox-status]
+![badge](https://img.shields.io/sandbox-active-brightgreen.svg)[sandbox-status]
 
-[sandbox-status][http://GitHub.com/Defcast/devcast]
+[sandbox-status][https://GitHub.com/Defcast/devcast]
 
 Here are some notes on this Jekyll based build:
 • It uses a template language called Liquid
