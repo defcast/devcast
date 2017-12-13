@@ -2,9 +2,11 @@ There are far too many development environments, languages tools, and packagers 
 
 Then there are so many useless tutorials flooding the internet and Youtube that it takes maximum effort just to find one to help you with what you're looking for. It's nonsense.
 
-[![sand stat](http://img.shields.io/sandbox-active-brightgreen.svg)[sandbox-status]]
+[![sandbox](http://img.shields.io/sandbox-active-brightgreen.svg)][sandbox-status]
+[![security](https://hakiri.io/github/jekyll/jekyll/master.svg)][dev-sec]
 
-[sandbox-status][https://GitHub.com/Defcast/devcast]
+[sandbox-status]: https://gitHub.com/defcast/devcast
+[dev-sec]: https://rubygems.org/gems/jekyll
 
 Here are some notes on this Jekyll based build: • It uses a template language called Liquid • It relies on Ruby to bundle the Jekyll components with a Ruby based theme • There is a little bit of a learning curve when it comes to understanding source control using Git repositories, figuring out what files generate what HTML and CSS (called preprocessing), and what changes to the layout should entail. That and you have to become familiar with the CSS naming convention. • I'm just happy I got the Sandbox badge status working. SVG will be a major part of making things look and behave well here. • I still to need to evaluate all of the available Jekyll plug-ins and consider my options for javascript, closure, and NoSQL
 
