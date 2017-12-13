@@ -1,9 +1,9 @@
+[![sync](https://img.shields.io/badge/sandbox-synced-blue.svg)][sandbox-status]
+[![security](https://hakiri.io/github/jekyll/jekyll/master.svg)][dev-sec]
+
 There are far too many development environments, languages tools, and packagers out there for developing web sites that it's seriously difficult to make a decision on just one suite, especially since you may like some features from one language but you prefer the development environment of the other.
 
 Then there are so many useless tutorials flooding the internet and Youtube that it takes maximum effort just to find one to help you with what you're looking for. It's nonsense.
-
-[![sync](https://img.shields.io/badge/sandbox-synced-blue.svg)][sandbox-status]
-[![security](https://hakiri.io/github/jekyll/jekyll/master.svg)][dev-sec]
 
 [sandbox-status]: https://gitHub.com/defcast/devcast
 [dev-sec]: https://rubygems.org/gems/jekyll
@@ -15,3 +15,6 @@ Here's some code to take up some space and act as a cue for future CSS changes
 {% highlight ruby %} label[for="nav-trigger"] display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; {% endhighlight %}
 
 Check out the Defcast Github for new software projects and collaborations. In the future there will be a functioning prototype for the streaming video web client at Defcast's main site . If you're interested in learning how to make your own status badges go to shields.io .
+
+[![sync](https://img.shields.io/badge/sandbox-synced-blue.svg)][sandbox-status]
+[![security](https://hakiri.io/github/jekyll/jekyll/master.svg)][dev-sec]
