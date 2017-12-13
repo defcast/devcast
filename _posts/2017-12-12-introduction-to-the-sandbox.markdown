@@ -2,8 +2,8 @@ There are far too many development environments, languages tools, and packagers 
 
 Then there are so many useless tutorials flooding the internet and Youtube that it takes maximum effort just to find one to help you with what you're looking for. It's nonsense.
 
-￼
-[sandbox-status]
+[￼
+[sandbox-status]]
 
 [sandbox-status][ https://GitHub.com/Defcast/devcast ]
 
