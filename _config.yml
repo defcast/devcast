@@ -13,6 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+# tautomate the tagging an image with a caption:    {% imgc img/picture.png|This is an image caption text %}
+
+
 title: Defcast Sandbox
 email: awheeler@defcast.io
 description: >- # this means to ignore newlines until "baseurl:"
@@ -21,14 +25,33 @@ description: >- # this means to ignore newlines until "baseurl:"
   and Git practices.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://defcast.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: alienwheeler
+twitter_username: @alienwheeler
 github_username:  defcast
+
+
+# Badge Left Text
+badge_A: site build
+# Badge Right Text  
+badge_B: poor
+
+cairo_tm: "based on the Jekyll theme"
+avalon_tm: "based on habitat.sh"
+mammoth_tm: "based on the Defcast web interface coming soon"
 
 defaults:
   - scope:
       path: "assets/img"
     values:
       image: true
+
+#image:
+#  feature: 
+#  thumb: thumbnail-img.png 
+#  credit:
+#  creditlink: http://instagram.com
+
+link: http://defcon-us.slack.com
+
 
 # Build settings
 markdown: kramdown
