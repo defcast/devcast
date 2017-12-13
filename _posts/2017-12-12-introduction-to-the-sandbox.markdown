@@ -2,7 +2,7 @@ There are far too many development environments, languages tools, and packagers 
 
 Then there are so many useless tutorials flooding the internet and Youtube that it takes maximum effort just to find one to help you with what you're looking for. It's nonsense.
 
-[![sandbox](http://img.shields.io/sandbox-active-brightgreen.svg)][sandbox-status]
+[![sync](https://img.shields.io/badge/sandbox-synced-blue.svg)][sandbox-status]
 [![security](https://hakiri.io/github/jekyll/jekyll/master.svg)][dev-sec]
 
 [sandbox-status]: https://gitHub.com/defcast/devcast
