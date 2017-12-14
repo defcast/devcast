@@ -29,9 +29,9 @@ twitter_username: alienwheeler
 github_username:  defcast
 
 
-# Badge Left Text
-badge_A: site build
-# Badge Right Text  
+#Badge Left Text
+badge_A: sandbox
+#Badge Right Text  
 badge_B: poor
 
 cairo_tm: "based on the Jekyll theme"
@@ -50,7 +50,7 @@ defaults:
 #  credit:
 #  creditlink: http://instagram.com
 
-link: http://defcon-us.slack.com
+#link: http://defcon-us.slack.com
 
 
 # Build settings

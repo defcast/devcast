@@ -17,7 +17,7 @@ def render(context)
 	baseurl = "#{lookup(context, 'site.baseurl')}"
 
 	# Reading the tag parameter (using the pipe-split technique)
-	input_split = split_params)@input)
+	input_split = split_params(@input)
 	img_path = input_split[0].strip.downcase
 
 	# Caption is an optional second parameter
