@@ -2,7 +2,13 @@
 	"folders":
 	[
 		{
+			"path": "/Users/DEFCAST/Sites/spider"
+		},
+		{
 			"path": "."
+		},
+		{
+			"path": "/Users/DEFCAST/Sites/defcast"
 		}
 	]
 }

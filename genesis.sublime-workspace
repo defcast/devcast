@@ -3,15 +3,79 @@
 	{
 		"selected_items":
 		[
+			[
+				"Integ",
+				"Integration"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"req",
+				"require_once〔keyword〕"
+			],
+			[
+				"get_",
+				"get_custom_logo〔function〕"
+			],
+			[
+				"get_f",
+				"get_footer〔function〕"
+			],
+			[
+				"highli",
+				"highlighter-rouge"
+			],
+			[
+				"high",
+				"highlight"
+			],
+			[
+				"aval",
+				"avalon_classes"
+			],
+			[
+				"aVA",
+				"avalon-class"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "_config.yml",
+			"file": "_sass/cairo/_layout.scss",
 			"settings":
 			{
-				"buffer_size": 1652,
+				"buffer_size": 5635,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "html {\n    box-sizing: border-box;\n    line-height: 1.15;\n    -ms-text-size-adjust: 100%;\n    -webkit-text-size-adjust: 100%\n}\n\n/**\n * Reset some basic elements\n */\nbody, h1, h2, h3, h4, h5, h6,\np, blockquote, pre, hr,\ndl, dd, ol, ul, figure {\n  margin: 0;\n  padding: 0;\n}\n\n\n\n/**\n * Basic styling\n */\nbody {\n  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;\n  color: $text-color;\n  background-color: $background-color;\n  -webkit-box-shadow: inset 0 3px 30px rgba(0, 0, 0, 0.3);\n  -moz-box-shadow: inset 0 3px 30px rgba(0, 0, 0, 0.3);\n  box-shadow: inset 0 3px 30px rgba(0, 0, 0, 0.3);\n  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);\n  -webkit-text-size-adjust: 100%;\n  -webkit-font-feature-settings: \"kern\" 1;\n     -moz-font-feature-settings: \"kern\" 1;\n       -o-font-feature-settings: \"kern\" 1;\n          font-feature-settings: \"kern\" 1;\n  font-kerning: normal;\n}\n\n\n\n/**\n * Set `margin-bottom` to maintain vertical rhythm\n */\nh1, h2, h3, h4, h5, h6,\np, blockquote, pre,\nul, ol, dl, figure,\n%vertical-rhythm {\n  margin-bottom: $spacing-unit / 2;\n}\n\n\n\n/**\n * Images\n */\nimg {\n  max-width: 100%;\n  vertical-align: middle;\n}\n\n\n\n/**\n * Figures\n */\nfigcaption, figure, figure > img, main {\n    display: block\n}\n\nfigcaption {\n  font-size: $small-font-size;\n}\n\n\n\n/**\n * Lists\n */\nul, ol {\n  margin-left: $spacing-unit;\n}\n\nli {\n  > ul,\n  > ol {\n    margin-bottom: 0;\n  }\n}\n\n\n\n/**\n * Headings\n */\nh1, h2, h3, h4, h5, h6 {\n  font-weight: $base-font-weight;\n}\n\nh2:hover .header-link, h3:hover .header-link, h4:hover .header-link,\nh5:hover .header-link, h6:hover .header-link {\n    opacity: 1\n}\n\n\n/**\n * Links\n */\na {\n  color: $brand-color;\n  text-decoration: none;\n\n  &:visited {\n    color: darken($brand-color, 15%);\n  }\n\n  &:hover {\n    color: $text-color;\n    text-decoration: underline;\n  }\n\n  .social-media-list &:hover {\n    text-decoration: none;\n\n    .username {\n      text-decoration: underline;\n    }\n  }\n}\n\n\n/**\n * Blockquotes\n */\nblockquote {\n  color: $grey-color;\n  border-left: 4px solid $grey-color-light;\n  padding-left: $spacing-unit / 2;\n  @include relative-font-size(1.125);\n  letter-spacing: -1px;\n  font-style: italic;\n\n  > :last-child {\n    margin-bottom: 0;\n  }\n}\n\n\n\n/**\n * Code formatting\n */\npre,\ncode {\n  @include relative-font-size(0.9375);\n  border: 1px solid $grey-color-light;\n  border-radius: 3px;\n  background-color: #eef;\n  white-space: pre;\n  display: inline-block;\n  margin: 0;\n  font: 14px / 1.8em Menlo, Consolas, \"Courier New\", Courier, \"Liberation Mono\", monospace;\n  padding: 0 0.4em\n}\n\n\n\nabbr[title] {\n    border-bottom: none;\n    text-decoration: underline;\n    text-decoration: underline dotted\n}\n\nb, strong {\n    font-weight: inherit\n}\n\nb, strong {\n    font-weight: bolder\n}\n\ncode, kbd, samp {\n    font-family: monospace, monospace;\n    font-size: 1em\n}\n\ndfn {\n    font-style: italic\n}\n\nmark {\n    background-color: #ff0;\n    color: #000\n}\n\nsmall {\n    font-size: 80%\n}\n\nsub, sup {\n    font-size: 75%;\n    line-height: 0;\n    position: relative;\n    vertical-align: baseline\n}\n\nsub {\n    bottom: -0.25em\n}\n\nsup {\n    top: -0.5em\n}\n\naudio, video {\n    display: inline-block\n}\n\naudio:not([controls]) {\n    display: none;\n    height: 0\n}\n\nimg {\n    border-style: none\n}\n\nsvg:not(:root) {\n    overflow: hidden\n}\n\nbutton, input, optgroup, select, textarea {\n    font-family: sans-serif;\n    font-size: 100%;\n    line-height: 1.15;\n    margin: 0\n}\n\nbutton, input {\n    overflow: visible\n}\n\nbutton, select {\n    text-transform: none\n}\n\nbutton, html [type=\"button\"], [type=\"reset\"], [type=\"submit\"] {\n    -webkit-appearance: button\n}\n\nbutton::-moz-focus-inner, [type=\"button\"]::-moz-focus-inner, [type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n    border-style: none;\n    padding: 0\n}\n\nbutton:-moz-focusring, [type=\"button\"]:-moz-focusring, [type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n    outline: 1px dotted ButtonText\n}\n\nfieldset {\n    padding: 0.35em 0.75em 0.625em\n}\n\nlegend {\n    box-sizing: border-box;\n    color: inherit;\n    display: table;\n    max-width: 100%;\n    padding: 0;\n    white-space: normal\n}\n\nprogress {\n    display: inline-block;\n    vertical-align: baseline\n}\n\ntextarea {\n    overflow: auto\n}\n\nnav ul, .meta ul {\n    padding: 0;\n    margin: 0;\n    white-space: nowrap;\n    display: inline-block\n}\n\nnav li, .meta li {\n    display: inline-block\n}\n\ndetails, menu {\n    display: block\n}\n\nsummary {\n    display: list-item\n}\n\ncanvas {\n    display: inline-block\n}\n\ntemplate {\n    display: none\n}\n\n\narticle {\n    -webkit-border-radius: 10px;\n    -moz-border-radius: 10px;\n    border-radius: 10px;\n    padding: 20px;\n    margin: 0 10px;\n    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);\n    -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);\n    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);\n    font-size: 16px\n}\n\n\narticle h2:first-child {\n    margin-top: 0\n}\n\narticle article:first-child {\n  background-color: #467;\n}\n\n@media (max-width: 480px) {\n    article ul {\n        padding-left: 20px\n    }\n}\n\n@media (max-width: 568px) {\n    article {\n        margin: 0\n    }\n}\n\n@media (min-width: 768px) {\n    article {\n        padding: 40px 40px 30px;\n        font-size: 21px\n    }\n}\n\naside {\n    padding-top: 30px\n}\n\naside h4 {\n    text-transform: uppercase;\n    font-size: 14px;\n    font-weight: 700;\n    padding: 0 0 10px 30px;\n    margin-left: -30px;\n    display: inline-block;\n    border-bottom: 1px solid #c00\n}\n\naside ul {\n    padding-left: 0\n}\n\naside ul:first-child {\n    margin-top: 0\n}\n\naside li {\n    list-style-type: none\n}\n\naside li a {\n    font-size: 16px;\n    position: relative\n}\n\naside li.current a:before {\n    content: \"\";\n    border-color: transparent transparent transparent #444;\n    border-style: solid;\n    border-width: 10px;\n    width: 0;\n    height: 0;\n    position: absolute;\n    top: 0;\n    left: -30px\n}\n\naside li.current a {\n    color: #f90\n}\n\n\n/**\n * Clearfix\n */\n%clearfix:after {\n  content: \"\";\n  display: table;\n  height: 0;\n  clear: both;\n  visibility: hidden\n}\n\n.clear {\n    display: block\n}\n\n.clear:after {\n    content: \" \";\n    display: block;\n    height: 0;\n    clear: both;\n    visibility: hidden\n}\n\n\n\n/**\n * Icons\n */\n.icon > svg {\n  display: inline-block;\n  vertical-align: middle;\n\n  path {\n    fill: $grey-color;\n  }\n}\n\n.social-media-list {\n  .icon {\n    padding-right: 5px;\n  }\n\n  li + li {\n    padding-top: 5px;\n  }\n}\n\n* , * :before, * :after {\n    box-sizing: inherit\n}\n\nfooter {\n    background-color: #212121;\n    font-size: 16px;\n    padding-bottom: 5px;\n    color: #c0c0c0;\n    margin-top: 40px\n}\n\nfooter a {\n    color: #fff\n}\n\nfooter a:hover img {\n    opacity: 1\n}\n\nfooter .align-right p {\n    display: inline-block\n}\n\nfooter img {\n    display: inline-block;\n    position: relative;\n    top: 8px;\n    margin-left: 5px;\n    opacity: .8;\n    padding: 1px;\n    -webkit-transition: opacity 0.2s;\n    -moz-transition: opacity 0.2s;\n    -o-transition: opacity 0.2s;\n    transition: opacity 0.2s\n}\n\n@media (max-width: 568px) {\n    footer .one-third p {\n        margin-bottom: 0\n    }\n\n    footer .two-thirds p {\n        margin-top: -20px\n    }\n}\n\n.highlight .hll {\n    background-color: #ffc\n}\n\n.highlight .c {\n    color: #87ceeb\n}\n\n.highlight .err {\n    color: #ffffff\n}\n\n.highlight .g {\n    color: #ffffff\n}\n\n.highlight .k {\n    color: #f0e68c\n}\n\n.highlight .l {\n    color: #ffffff\n}\n\n.highlight .n {\n    color: #ffffff\n}\n\n.highlight .o {\n    color: #ffffff\n}\n\n.highlight .x {\n    color: #ffffff\n}\n\n.highlight .p {\n    color: #98b9ef\n}\n\n.highlight .cm {\n    color: #87ceeb\n}\n\n.highlight .cp {\n    color: #cd5c5c\n}\n\n.highlight .c1 {\n    color: #87ceeb\n}\n\n.highlight .cs {\n    color: #87ceeb\n}\n\n.highlight .gd {\n    color: #ce342c\n}\n\n.highlight .ge {\n    color: #c000c0;\n    text-decoration: underline\n}\n\n.highlight .gr {\n    color: #c0c0c0;\n    font-weight: bold;\n    background-color: #c00000\n}\n\n.highlight .gh {\n    color: #cd5c5c\n}\n\n.highlight .gi {\n    color: #27b42c\n}\n\n.highlight span.go {\n    color: #add8e6;\n    font-weight: bold;\n    background-color: #4d4d4d\n}\n\n.highlight .gp {\n    color: #ffffff\n}\n\n.highlight .gs {\n    color: #ffffff\n}\n\n.highlight .gu {\n    color: #cd5c5c\n}\n\n.highlight .gt {\n    color: #c0c0c0;\n    font-weight: bold;\n    background-color: #c00000\n}\n\n.highlight .kc {\n    color: #f0e68c\n}\n\n.highlight .kd {\n    color: #f0e68c\n}\n\n.highlight .kn {\n    color: #f0e68c\n}\n\n.highlight .kp {\n    color: #f0e68c\n}\n\n.highlight .kr {\n    color: #f0e68c\n}\n\n.highlight .kt {\n    color: #bdb76b\n}\n\n.highlight .ld {\n    color: #ffffff\n}\n\n.highlight .m {\n    color: #ffffff\n}\n\n.highlight .s {\n    color: #ffffff\n}\n\n.highlight .na {\n    color: #ffffff\n}\n\n.highlight .nb {\n    color: #ffffff\n}\n\n.highlight .nc {\n    color: #ffffff\n}\n\n.highlight .no {\n    color: #ffa0a0\n}\n\n.highlight .nd {\n    color: #ffffff\n}\n\n.highlight .ni {\n    color: #ffdead\n}\n\n.highlight .ne {\n    color: #ffffff\n}\n\n.highlight .nf {\n    color: #ffffff\n}\n\n.highlight .nl {\n    color: #ffffff\n}\n\n.highlight .nn {\n    color: #ffffff\n}\n\n.highlight .nx {\n    color: #ffffff\n}\n\n.highlight .py {\n    color: #ffffff\n}\n\n.highlight .nt {\n    color: #f0e68c\n}\n\n.highlight .nv {\n    color: #88d472\n}\n\n.highlight .ow {\n    color: #ffffff\n}\n\n.highlight .w {\n    color: #ffffff\n}\n\n.highlight .mf {\n    color: #ffffff\n}\n\n.highlight .mh {\n    color: #ffffff\n}\n\n.highlight .mi {\n    color: #ffffff\n}\n\n.highlight .mo {\n    color: #ffffff\n}\n\n.highlight .sb {\n    color: #ffffff\n}\n\n.highlight .sc {\n    color: #ffffff\n}\n\n.highlight .sd {\n    color: #ffffff\n}\n\n.highlight .s2 {\n    color: #ffffff\n}\n\n.highlight .se {\n    color: #ffffff\n}\n\n.highlight .sh {\n    color: #ffffff\n}\n\n.highlight .si {\n    color: #ffffff\n}\n\n.highlight .sx {\n    color: #ffffff\n}\n\n.highlight .sr {\n    color: #ffffff\n}\n\n.highlight .s1 {\n    color: #ffffff\n}\n\n.highlight .ss {\n    color: #ffffff\n}\n\n.highlight .bp {\n    color: #ffffff\n}\n\n.highlight .vc {\n    color: #98fb98\n}\n\n.highlight .vg {\n    color: #98fb98\n}\n\n.highlight .vi {\n    color: #98fb98\n}\n\n.highlight .il {\n    color: #ffffff\n}\n\n.highlight .bash .nv {\n    user-select: none\n}\n\n[type=\"checkbox\"], [type=\"radio\"] {\n    box-sizing: border-box;\n    padding: 0\n}\n\n[type=\"number\"]::-webkit-inner-spin-button, [type=\"number\"]::-webkit-outer-spin-button {\n    height: auto\n}\n\n[type=\"search\"]::-webkit-search-cancel-button, [type=\"search\"]::-webkit-search-decoration {\n    -webkit-appearance: none\n}\n\n::-webkit-file-upload-button {\n    -webkit-appearance: button;\n    font: inherit\n}\n\n[hidden] {\n    display: none\n}\n\n@media (max-width: 580px) {\n    header .flexbox {\n        height: auto\n    }\n\n    header .logo img {\n        margin-top: 0\n    }\n}\n\n@media (max-width: 699px) {\n    .searchbox {\n        display: none\n    }\n}\n\n@media (max-width: 768px) {\n    .main-nav ul {\n        text-align: right\n    }\n}\n\n@media (max-width: 830px) {\n    .main-nav .show-on-mobiles {\n        display: inline\n    }\n\n    .main-nav .hide-on-mobiles {\n        display: none\n    }\n}\n\n@media (max-width: 890px) {\n    .meta {\n        display: none\n    }\n}\n\n\n/**\n * Wrapper\n */\n.wrapper {\n  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));\n  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));\n  margin-right: auto;\n  margin-left: auto;\n  padding-right: $spacing-unit;\n  padding-left: $spacing-unit;\n  @extend %clearfix;\n\n  @include media-query($on-laptop) {\n    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));\n    max-width:         calc(#{$content-width} - (#{$spacing-unit}));\n    padding-right: $spacing-unit / 2;\n    padding-left: $spacing-unit / 2;\n  }\n}\n\n\n@media screen and (max-width: 568px) {\n    .grid:not(.no-stacking-on-mobiles) > .unit {\n        width: 100% !important;\n        padding-left: 20px;\n        padding-right: 20px\n    }\n\n    .unit .grid .unit {\n        padding-left: 0px;\n        padding-right: 0px\n    }\n\n    .center-on-mobiles {\n        text-align: center !important\n    }\n\n    .hide-on-mobiles {\n        display: none !important\n    }\n\n    footer .one-third p {\n        margin-bottom: 0\n    }\n\n    footer .two-thirds p {\n        margin-top: -20px\n    }\n}\n\n@media screen and (min-width: 1180px) {\n    .wider .grid, .grid.wider {\n        max-width: 1180px;\n        margin: 0 auto\n    }\n}\n\n\n.meta ul {\n    margin-left: 10px\n}\n\n.meta ul li {\n    vertical-align: middle\n}\n\n.main-nav li a, .meta li a {\n    -webkit-border-radius: 5px;\n    -moz-border-radius: 5px;\n    border-radius: 5px;\n    font-weight: 900;\n    font-size: 0.75em;\n    padding: 0.5em 1em;\n    text-shadow: none;\n    text-transform: uppercase;\n    -webkit-transition: all 0.25s;\n    -moz-transition: all 0.25s;\n    -o-transition: all 0.25s;\n    transition: all 0.25s\n}\n\n.main-nav li a:hover, .meta li a:hover {\n    background-color: #252525;\n    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);\n    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);\n    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);\n    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5)\n}\n\n.main-nav li.current a, .meta li.current a {\n    background-color: #fc0;\n    color: #222;\n    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);\n    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);\n    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);\n    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3)\n}\n\n.mobile-nav {\n    padding: 0 5px\n}\n\n.mobile-nav ul {\n    overflow: hidden;\n    width: 100%;\n    display: table\n}\n\n.mobile-nav a {\n    float: left;\n    width: 100%;\n    background-color: #333;\n    color: #fc0;\n    text-align: center;\n    text-transform: uppercase;\n    font-size: 0.625em;\n    font-weight: 900;\n    padding: 10px 5px;\n    -webkit-border-radius: 5px;\n    -moz-border-radius: 5px;\n    border-radius: 5px\n}\n\n.mobile-nav li {\n    display: table-cell;\n    width: 20%;\n    padding: 8px 2px\n}\n\n.mobile-nav .current a {\n    background-color: #fc0;\n    color: #222;\n    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);\n    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);\n    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);\n    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3)\n}\n\n.header-link {\n    position: relative;\n    left: 0.5em;\n    opacity: 0;\n    font-size: 0.8em;\n    -webkit-transition: opacity 0.2s ease-in-out 0.1s;\n    -moz-transition: opacity 0.2s ease-in-out 0.1s;\n    -o-transition: opacity 0.2s ease-in-out 0.1s;\n    transition: opacity 0.2s ease-in-out 0.1s\n}\n\n\n\n",
+			"file": "_sass/minima/_base.scss",
+			"file_size": 12619,
+			"file_write_time": 131581573810000000,
+			"settings":
+			{
+				"buffer_size": 14640,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/DEFCAST/Sites/spider/wp-content/themes/~avalon/css/avalon.css",
+			"settings":
+			{
+				"buffer_size": 40207,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/cairo/_syntax-highlighting.scss",
+			"settings":
+			{
+				"buffer_size": 3227,
 				"line_ending": "Unix"
 			}
 		}
@@ -23,20 +87,44 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "Package Control: ",
+		"height": 354.0,
+		"last_filter": "pa",
 		"selected_items":
 		[
 			[
-				"Package Control: ",
+				"pa",
 				"Package Control: Install Package"
 			],
 			[
+				"Snippet: ",
+				"Snippet: elsif"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"PHP Code Sniffer: ",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
 				"pack",
-				"Package Control: Discover Packages"
+				"Package Control: Disable Package"
+			],
+			[
+				"sv",
+				"SVGO: Prettify SVG"
+			],
+			[
+				"",
+				"Package Control: Add Channel"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 476.0
+		"width": 592.0
 	},
 	"console":
 	{
@@ -56,10 +144,113 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/DEFCAST/Sites/genesis"
+		"/Users/DEFCAST/Sites/genesis",
+		"/Users/DEFCAST/Sites/genesis/_sass",
+		"/Users/DEFCAST/Sites/genesis/_sass/cairo"
 	],
 	"file_history":
 	[
+		"/Users/DEFCAST/Sites/genesis/_layouts/default.html",
+		"/Users/DEFCAST/Sites/genesis/assets/main.scss",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/css/avalon.css",
+		"/Users/DEFCAST/Sites/badge-svgs.md",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/index.php",
+		"/Users/DEFCAST/Sites/wp-index.html",
+		"/Users/DEFCAST/Sites/wp-index.css",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/footer.php",
+		"/Users/DEFCAST/Sites/sandbox.html",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/page.html",
+		"/Users/DEFCAST/Sites/defcast/themes/allpurpose/footer.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/kit/footer.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/kit/header.php",
+		"/Users/DEFCAST/Desktop/build-stage.svg",
+		"/Users/DEFCAST/Sites/genesis/_includes/svg-badgers-and-icons.md",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/inc/badge-svgs.md",
+		"/Users/DEFCAST/Sites/SVG_README.md",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/snippets.md",
+		"/Users/DEFCAST/Sites/genesis/_includes/icon-defstat.svg",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/kit/cmd-db.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/kit/_defines.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/kit/cmd-panel.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/kit/cmd-page.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/index-bckp.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/kit/cmd-center.php",
+		"/Users/DEFCAST/Sites/spider/wp-includes/post-template.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/functions.php",
+		"/Users/DEFCAST/Sites/spider/wp-includes/spider-content.yml",
+		"/Users/DEFCAST/Sites/spider/wp-config.php",
+		"/Users/DEFCAST/Library/Application Support/Sublime Text 3/Packages/User/WordPressDev.sublime-settings",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/kit/cmd-reset.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentyseventeen/assets/css/avalon.css",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentyseventeen/index.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentyseventeen/template-parts/page/content-front-page-panels.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentyseventeen/template-parts/page/content-front-page.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentyseventeen/template-parts/post/content.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentyseventeen/template-parts/page/content-page.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentyseventeen/inc/template-functions.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentyseventeen/functions.php",
+		"/Users/DEFCAST/Sites/spider/wp-includes/widgets.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentyseventeen/page.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/header.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/layout/page.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/layout/page/content-front-page.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/page.php",
+		"/Users/DEFCAST/Sites/spider/wp-includes/general-template.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/css/jekyll-reference.css",
+		"/Users/DEFCAST/Sites/spider/wp-includes/SimplePie/Cache/MySQL.php",
+		"/Users/DEFCAST/Sites/spider/wp-includes/post.php",
+		"/Users/DEFCAST/Sites/github-tokens.md",
+		"/Users/DEFCAST/Sites/spider/wp-includes/class-wp-query.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentyseventeen/assets/css/colors-dark.css",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/style.css",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentysixteen/index.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentytwelve/page-templates/front-page.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentyfourteen/index.php",
+		"/Users/DEFCAST/Sites/spider/wp-includes/query.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentytwelve/index.php",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentyfifteen/header.php",
+		"/Users/DEFCAST/Sites/spider/wp-includes/post-formats.php",
+		"/Users/DEFCAST/Sites/spider/wp-includes/nav-menu-template.php",
+		"/Users/DEFCAST/Sites/genesis/_includes/badge-def.html",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/js/bootstrap.min.js",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/avalon/js/avalon.js",
+		"/Users/DEFCAST/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/DEFCAST/Library/Application Support/Sublime Text 3/Packages/User/phpcs.sublime-settings",
+		"/Users/DEFCAST/Sites/spider/wp-content/themes/twentyfourteen/404.php",
+		"/Users/DEFCAST/Sites/genesis/_config.yml",
+		"/Users/DEFCAST/Sites/genesis/_layouts/home.html",
+		"/Users/DEFCAST/Sites/genesis/_layouts/page.html",
+		"/Users/DEFCAST/Sites/genesis/_posts/2017-12-12-introduction-to-the-sandbox.markdown",
+		"/Users/DEFCAST/Sites/genesis/templates.md",
+		"/Users/DEFCAST/Desktop/css card with link and hover.md",
+		"/Users/DEFCAST/Library/Application Support/Sublime Text 3/Packages/User/css_hover",
+		"/Users/DEFCAST/Sites/genesis/_data/_members.yml",
+		"/Users/DEFCAST/Sites/genesis/index.md",
+		"/Users/DEFCAST/Sites/genesis/_data/_navigation.yml",
+		"/Users/DEFCAST/Sites/genesis/_layouts/cairo.html",
+		"/Users/DEFCAST/Sites/emmet.html",
+		"/Users/DEFCAST/Sites/genesis/_layouts/templates.html",
+		"/Users/DEFCAST/Sites/genesis/_sass/cairo/_layout.scss",
+		"/Users/DEFCAST/Sites/genesis/_plugins/signup_widget.html",
+		"/Users/DEFCAST/Sites/genesis/form_widget-with_variables.html",
+		"/Users/DEFCAST/Sites/genesis/_plugins/form_widget.html",
+		"/Users/DEFCAST/Sites/genesis/_plugins/imgc.rb",
+		"/Users/DEFCAST/Sites/genesis/_site/index.html",
+		"/Users/DEFCAST/Sites/genesis/_sass/minima/_layout.scss",
+		"/Users/DEFCAST/Sites/genesis/_layouts/avalon.html",
+		"/Users/DEFCAST/Sites/genesis/_layouts/mammoth.html",
+		"/Users/DEFCAST/Sites/genesis/_includes/icon-defstat.html",
+		"/Users/DEFCAST/Sites/genesis/_sass/minima/_syntax-highlighting.scss",
+		"/Users/DEFCAST/Sites/genesis/_sass/minima/_base.scss",
+		"/Users/DEFCAST/Sites/genesis/jekyll.css",
+		"/Users/DEFCAST/Sites/genesis/_layouts/post.html",
+		"/Users/DEFCAST/Sites/genesis/assets/img/sandbox-badge.svg",
+		"/Users/DEFCAST/Sites/genesis/_sass/minima.scss",
+		"/Users/DEFCAST/Sites/genesis/_site/assets/main.css",
+		"/Users/DEFCAST/Sites/genesis/_includes/header.html",
+		"/Users/DEFCAST/Sites/genesis/_posts/2017-12-11-welcome-to-jekyll.markdown",
+		"/Users/DEFCAST/Sites/genesis/_site/feed.xml",
+		"/Users/DEFCAST/Sites/genesis/Gemfile",
 		"/Users/DEFCAST/Desktop/Defcast Full Scale.md",
 		"/Users/DEFCAST/Desktop/#SRC/Android/CyclopsDroid/bin/classes/com/TrollSystems/CyclopsDroid/ConTroll.class",
 		"/Volumes/Mac/Backups.backupdb/Allen Wheeler’s MacBook Pro/2014-04-04-135446/Macintosh HD/Users/docwhl/Documents/Code/#SRC/ConTroll/U_Processes/U_PCAP.C",
@@ -74,7 +265,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -88,6 +279,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pre",
+			"figure",
+			"article",
+			"pre",
+			"sr",
+			"yaml",
+			"language",
+			"languag",
+			"SECTION",
+			"new_files",
+			"text",
+			"menu",
+			"embed",
+			"?>>",
+			"nav",
+			".badge",
+			"badge",
+			"col-",
+			".site-nav",
+			"git",
+			"icon",
+			"icons",
+			"github",
+			".site-nav",
+			"code",
+			"img",
+			"yahoo",
+			"icon",
+			"rss",
+			"rss-subscribe",
+			"site-footer",
+			"rss",
+			"\"\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -105,16 +329,16 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_config.yml",
+					"file": "_sass/cairo/_layout.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1652,
+						"buffer_size": 5635,
 						"regions":
 						{
 						},
@@ -127,158 +351,112 @@
 						],
 						"settings":
 						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4127.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_sass/minima/_base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14640,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
+								1188,
+								1194
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/Users/DEFCAST/Sites/spider/wp-content/themes/~avalon/css/avalon.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38621,
+								24002
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7208.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_sass/cairo/_syntax-highlighting.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 404.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -289,11 +467,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 25.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 63.0
 	},
 	"layout":
 	{
@@ -304,11 +482,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -322,11 +507,15 @@
 	{
 		"height": 0.0
 	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "genesis.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -356,15 +545,15 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_visible": false,
+	"side_bar_width": 280.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
